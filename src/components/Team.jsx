@@ -104,10 +104,10 @@ Team.defaultProps = {
   SectionbgTitle: "Team",
   sectionTitle: "Our Team",
   sectionDescription:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+    "With our team of experts in accountancy, Company Law and the corporate taxation system Jain Dhingra & Associates stands high on its core values and services with its certified and experienced Chartered Accountants, Business Analysts, Tax and Finance Experts, IT Professionals, and the Support Staff who strive to resolve your queries and guide you at their best. Meet the top-notch professionals of Jain Dhingra & Associates.",
   teamsData: [
     {
-      Image: require("../assets/img/team-one.jpg"),
+      Image: require("../assets/img/person-anonymous-thumb.jpg"),
       Name: "Williamson",
       Profession: "Web Developer",
       facebookLink: "/#0",
@@ -115,7 +115,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/team-two.jpg"),
+      Image: require("../assets/img/person-anonymous-thumb.jpg"),
       Name: "Jone Doy",
       Profession: "Designer",
       facebookLink: "/#0",
@@ -123,7 +123,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/team-three.jpg"),
+      Image: require("../assets/img/person-anonymous-thumb.jpg"),
       Name: "Oliver",
       Profession: "Photographer",
       facebookLink: "/#0",
@@ -131,7 +131,7 @@ Team.defaultProps = {
       twitterLink: "/#0"
     },
     {
-      Image: require("../assets/img/team-two.jpg"),
+      Image: require("../assets/img/person-anonymous-thumb.jpg"),
       Name: "Mark Jone",
       Profession: "CEO",
       facebookLink: "/#0",
@@ -142,7 +142,7 @@ Team.defaultProps = {
   teamItems: [
     {
       Name: "K.C Agarwal",
-      Image: require("../assets/img/team-two.jpg"),
+      Image: require("../assets/img/person-anonymous-thumb.jpg"),
       Profession: "C.A",
       facebookLink: "/#0",
       linkedinLink: "/#0",
@@ -150,7 +150,7 @@ Team.defaultProps = {
     },
     {
       Name: "Rakesh Gupta",
-      Image: require("../assets/img/team-two.jpg"),
+      Image: require("../assets/img/person-anonymous-thumb.jpg"),
       Profession: "C.A",
       facebookLink: "/#0",
       linkedinLink: "/#0",
@@ -158,7 +158,7 @@ Team.defaultProps = {
     },
     {
       Name: "Pankaj Kumpawat",
-      Image: require("../assets/img/team-two.jpg"),
+      Image: require("../assets/img/person-anonymous-thumb.jpg"),
       Profession: "C.A",
       facebookLink: "/#0",
       linkedinLink: "/#0",
@@ -166,7 +166,7 @@ Team.defaultProps = {
     },
     {
       Name: "Shekhar Nigam",
-      Image: require("../assets/img/team-two.jpg"),
+      Image: require("../assets/img/person-anonymous-thumb.jpg"),
       Profession: "C.A",
       facebookLink: "/#0",
       linkedinLink: "/#0",
@@ -174,7 +174,7 @@ Team.defaultProps = {
     },
     {
       Name: "Ajay Gupta",
-      Image: require("../assets/img/team-two.jpg"),
+      Image: require("../assets/img/person-anonymous-thumb.jpg"),
       Profession: "C.A",
       facebookLink: "/#0",
       linkedinLink: "/#0",
