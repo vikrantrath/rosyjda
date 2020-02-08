@@ -32,17 +32,17 @@ class HomeThree extends Component {
         {/* Services: src/components/Services.jsx */}
         <Services />
         {/* WelcomeServices: src/components/WelcomeServices.jsx */}
-        <WelcomeServices />
+        {/* <WelcomeServices /> */}
         {/* About: src/components/About.jsx */}
         <About />
         {/* Testimonials: src/components/Testimonials.jsx */}
         <Testimonials />
         {/* Team: src/components/Team.jsx */}
-        <Team />
+        {/* <Team /> */}
         {/* FAQ: src/components/FAQ.jsx */}
-        <FAQ />
+        {/* <FAQ /> */}
         {/* Partner: src/components/Partner.jsx */}
-        <Partner />
+        {/* <Partner /> */}
         {/* Contact: src/components/Contact.jsx */}
         <Contact />
         {/* Footer: src/components/Footer.jsx */}

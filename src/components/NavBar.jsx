@@ -176,7 +176,7 @@ class NavBar extends Component {
                       </Link>
                     </Nav.Item>
 
-                    <Nav.Item>
+                    {/* <Nav.Item>
                       <Link
                         activeclass="active"
                         to="team"
@@ -189,7 +189,7 @@ class NavBar extends Component {
                       >
                         Team
                       </Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
 
                     <Nav.Item>
                       <Link
