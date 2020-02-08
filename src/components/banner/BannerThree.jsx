@@ -8,10 +8,10 @@ class BannerThree extends Component {
         return (
             <React.Fragment>
                 <div id="home" className="home-video-area">
-                <video id="bgvid" loop autoPlay muted>
-                    <source src="http://taxify.co/wp-content/uploads/2014/06/file.mp4" type="video/mp4" />
-                </video>
-                
+                    <video id="bgvid" loop autoPlay muted>
+                        <source src="http://taxify.co/wp-content/uploads/2014/06/file.mp4" type="video/mp4" />
+                    </video>
+
                     <div className="video-text-area">
                         <div className="container">
                             <div className="row">
@@ -28,19 +28,19 @@ class BannerThree extends Component {
                                         className="animated fadeInDown slow opacityOne">
                                         {this.props.Content}
                                     </p>
-                                    <div className="center-wrap">
+                                    {/* <div className="center-wrap">
                                         <Link to={this.props.BtnLink} className="btn-a">
                                             <div className="button">
                                                 {this.props.BtnName}
                                                 <Icofont icon="icofont-long-arrow-right" />
                                             <div className="mask" /></div>
                                         </Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>    
+                </div>
             </React.Fragment>
         );
     }
@@ -57,9 +57,9 @@ BannerThree.propTypes = {
 //Default Props
 BannerThree.defaultProps = {
     TopTitle: "Clean & Creative",
-    Title: "Fully Responsive Design",
-    Content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
-    BtnLink:  "/#",
+    Title: "Welcome To Jain Dhingra & Associates",
+    Content: "We at Jain Dhingra &amp; Associates, strive to add value to your work with our best financial guidance and services at various genres.",
+    BtnLink: "/#",
     BtnName: "get started",
 };
 export default BannerThree;

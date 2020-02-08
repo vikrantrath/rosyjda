@@ -20,8 +20,8 @@ class NavBar extends Component {
             }
         });
         window.scrollTo(0, 0);
-        
-    
+
+
     }
 
     closeNavbar() {
@@ -29,296 +29,296 @@ class NavBar extends Component {
             document.getElementById("collaspe-btn").click();
         }
     }
-  render() {
-    return (
-        <React.Fragment>
-            {/* Start Top Header */}
-            <div className="top-header">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-7 col-lg-7">
-                            <div className="address-bar">
-                                <ul className="list-inline">
-                                    <li><a href={this.props.mailLink}><Icofont icon="icofont-email"/> {this.props.mail}</a></li>
-                                    <li><a href={this.props.numberLink}><Icofont icon="icofont-ui-call" /> {this.props.Number}</a></li>
-                                </ul>
+    render() {
+        return (
+            <React.Fragment>
+                {/* Start Top Header */}
+                <div className="top-header">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-7 col-lg-7">
+                                <div className="address-bar">
+                                    <ul className="list-inline">
+                                        <li><a href={this.props.mailLink}><Icofont icon="icofont-email" /> {this.props.mail}</a></li>
+                                        <li><a href={this.props.numberLink}><Icofont icon="icofont-ui-call" /> {this.props.Number}</a></li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        
-                        <div className="col-lg-5 col-md-5">
-                            <div className="social-icons">
-                                <ul className="list-inline">
-                                    <li><a href={this.props.facebookLink} rel="noopener noreferrer" target="_blank"><Icofont icon="icofont-facebook" /></a></li>
-                                    <li><a href={this.props.twitterLink} rel="noopener noreferrer" target="_blank"><Icofont icon="icofont-twitter" /></a></li>
-                                    <li><a href={this.props.instagramLink} rel="noopener noreferrer" target="_blank"><Icofont icon="icofont-instagram" /></a></li>
-                                </ul>
+
+                            <div className="col-lg-5 col-md-5">
+                                <div className="social-icons">
+                                    <ul className="list-inline">
+                                        <li><a href={this.props.facebookLink} rel="noopener noreferrer" target="_blank"><Icofont icon="icofont-facebook" /></a></li>
+                                        <li><a href={this.props.twitterLink} rel="noopener noreferrer" target="_blank"><Icofont icon="icofont-twitter" /></a></li>
+                                        <li><a href={this.props.instagramLink} rel="noopener noreferrer" target="_blank"><Icofont icon="icofont-instagram" /></a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            {/* End Top Header */}
+                {/* End Top Header */}
 
-            <Navbar
-                id="navbar"
-                bg="light"
-                expand="lg"
-                className="navbar navbar-expand-md navbar-light"
-                collapseOnSelect={true}
-            >
-                <Container>
-                    <Navbar.Brand className="navbar-brand logo">
-                        <React.Fragment>
-                            <LinkContainer exact to="/">
-                                <img 
-                                    src={this.props.MainLogo}
-                                    alt="Logo" 
-                                />
-                            </LinkContainer>
-                        </React.Fragment>
-                    </Navbar.Brand>
-
-                    <Navbar.Brand className="navbar-brand logo-2"> 
+                <Navbar
+                    id="navbar"
+                    bg="light"
+                    expand="lg"
+                    className="navbar navbar-expand-md navbar-light"
+                    collapseOnSelect={true}
+                >
+                    <Container>
+                        <Navbar.Brand className="navbar-brand logo">
                             <React.Fragment>
-                               <LinkContainer exact to="/">
-                                    <img 
-                                        className="img-fluid" 
+                                <LinkContainer exact to="/">
+                                    <img
+                                        src={this.props.MainLogo}
+                                        alt="Logo"
+                                    />
+                                </LinkContainer>
+                            </React.Fragment>
+                        </Navbar.Brand>
+
+                        <Navbar.Brand className="navbar-brand logo-2">
+                            <React.Fragment>
+                                <LinkContainer exact to="/">
+                                    <img
+                                        className="img-fluid"
                                         src={this.props.Logo2}
                                         alt="Logo"
                                     />
                                 </LinkContainer>
                             </React.Fragment>
-                    </Navbar.Brand>
+                        </Navbar.Brand>
 
-                    <Navbar.Toggle 
-                        className="navbar-toggler" 
-                        type="button" data-toggle="collapse" 
-                        data-target="#navbarSupportedContent" 
-                        aria-controls="navbarSupportedContent" 
-                        aria-expanded="false" 
-                        aria-label="Toggle navigation" 
-                        id="collaspe-btn"
-                    />
-                    <Navbar.Collapse 
-                        id="navbarSupportedContent"
-                    >
-                        <Nav className="navbar-nav ml-auto">
-                        {this.props.pageName === "home" ? (
-                            <React.Fragment>
-                                <Nav.Item>
-                                    <Link
-                                        activeclass="active"
-                                        to="home"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-200}
-                                        duration={800}
-                                        className="smooths nav-link"
-                                        onClick={this.closeNavbar}
-                                    >
-                                        Home
+                        <Navbar.Toggle
+                            className="navbar-toggler"
+                            type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                            id="collaspe-btn"
+                        />
+                        <Navbar.Collapse
+                            id="navbarSupportedContent"
+                        >
+                            <Nav className="navbar-nav ml-auto">
+                                {this.props.pageName === "home" ? (
+                                    <React.Fragment>
+                                        <Nav.Item>
+                                            <Link
+                                                activeclass="active"
+                                                to="home"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={800}
+                                                className="smooths nav-link"
+                                                onClick={this.closeNavbar}
+                                            >
+                                                Home
                                     </Link>
-                                </Nav.Item>
+                                        </Nav.Item>
 
-                                <Nav.Item>
-                                    <Link
-                                        activeclass="active"
-                                        to="services"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-200}
-                                        duration={800}
-                                        className="nav-link"
-                                        onClick={this.closeNavbar}
-                                    >
-                                        Services
+                                        <Nav.Item>
+                                            <Link
+                                                activeclass="active"
+                                                to="services"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={800}
+                                                className="nav-link"
+                                                onClick={this.closeNavbar}
+                                            >
+                                                Services
                                     </Link>
-                                </Nav.Item>
+                                        </Nav.Item>
 
-                                <Nav.Item>
-                                    <Link
-                                        activeclass="active"
-                                        to="works"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-200}
-                                        duration={800}
-                                        className="nav-link"
-                                        onClick={this.closeNavbar}
-                                    >
-                                        Works
+                                        <Nav.Item>
+                                            <Link
+                                                activeclass="active"
+                                                to="works"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={800}
+                                                className="nav-link"
+                                                onClick={this.closeNavbar}
+                                            >
+                                                Works
                                     </Link>
-                                </Nav.Item>
+                                        </Nav.Item>
 
-                                <Nav.Item>
-                                    <Link
-                                        activeclass="active"
-                                        to="about"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-200}
-                                        duration={800}
-                                        className="nav-link"
-                                        onClick={this.closeNavbar}
-                                    >
-                                        About
+                                        <Nav.Item>
+                                            <Link
+                                                activeclass="active"
+                                                to="about"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={800}
+                                                className="nav-link"
+                                                onClick={this.closeNavbar}
+                                            >
+                                                About
                                     </Link>
-                                </Nav.Item>
+                                        </Nav.Item>
 
-                                <Nav.Item>
-                                    <Link
-                                        activeclass="active"
-                                        to="team"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-200}
-                                        duration={800}
-                                        className="nav-link"
-                                        onClick={this.closeNavbar}
-                                    >
-                                        Team
+                                        <Nav.Item>
+                                            <Link
+                                                activeclass="active"
+                                                to="team"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={800}
+                                                className="nav-link"
+                                                onClick={this.closeNavbar}
+                                            >
+                                                Team
                                     </Link>
-                                </Nav.Item>
+                                        </Nav.Item>
 
-                                <Nav.Item>
-                                    <Link
-                                        activeclass="active"
-                                        to="blog"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-200}
-                                        duration={800}
-                                        className="nav-link"
-                                        onClick={this.closeNavbar}
-                                    >
-                                        Blog
+                                        <Nav.Item>
+                                            <Link
+                                                activeclass="active"
+                                                to="blog"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={800}
+                                                className="nav-link"
+                                                onClick={this.closeNavbar}
+                                            >
+                                                Blog
                                     </Link>
-                                </Nav.Item>
+                                        </Nav.Item>
 
-                                <Nav.Item>
-                                    <Link
-                                        activeclass="active"
-                                        to="pricing"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-200}
-                                        duration={800}
-                                        className="nav-link"
-                                        onClick={this.closeNavbar}
-                                    >
-                                        Pricing
+                                        <Nav.Item>
+                                            <Link
+                                                activeclass="active"
+                                                to="pricing"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={800}
+                                                className="nav-link"
+                                                onClick={this.closeNavbar}
+                                            >
+                                                Pricing
                                     </Link>
-                                </Nav.Item>
+                                        </Nav.Item>
 
-                                <Nav.Item>
-                                    <Link
-                                        activeclass="active"
-                                        to="contact"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-200}
-                                        duration={800}
-                                        className="nav-link"
-                                        onClick={this.closeNavbar}
-                                    >
-                                        Contact
+                                        <Nav.Item>
+                                            <Link
+                                                activeclass="active"
+                                                to="contact"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={800}
+                                                className="nav-link"
+                                                onClick={this.closeNavbar}
+                                            >
+                                                Contact
                                     </Link>
-                                </Nav.Item>
-                            </React.Fragment>
-                        ) : (
-                            <React.Fragment>
-                                <Nav.Item>
-                                    <NavLink
-                                        to="/"
-                                        className="nav-link"
-                                        activeClassName=""
-                                    >
-                                        Home
+                                        </Nav.Item>
+                                    </React.Fragment>
+                                ) : (
+                                        <React.Fragment>
+                                            <Nav.Item>
+                                                <NavLink
+                                                    to="/"
+                                                    className="nav-link"
+                                                    activeClassName=""
+                                                >
+                                                    Home
                                     </NavLink>
-                                </Nav.Item>
+                                            </Nav.Item>
 
-                                <Nav.Item>
-                                    <NavLink
-                                        to="/"
-                                        className="nav-link"
-                                        activeClassName=""
-                                    >
-                                        Services
+                                            <Nav.Item>
+                                                <NavLink
+                                                    to="/"
+                                                    className="nav-link"
+                                                    activeClassName=""
+                                                >
+                                                    Services
                                     </NavLink>
-                                </Nav.Item>
+                                            </Nav.Item>
 
-                                <Nav.Item>
-                                    <NavLink
-                                        to="/"
-                                        className="nav-link"
-                                        activeClassName=""
-                                    >
-                                        Works
+                                            <Nav.Item>
+                                                <NavLink
+                                                    to="/"
+                                                    className="nav-link"
+                                                    activeClassName=""
+                                                >
+                                                    Works
                                     </NavLink>
-                                </Nav.Item>
+                                            </Nav.Item>
 
-                                <Nav.Item>
-                                    <NavLink
-                                        to="/"
-                                        className="nav-link"
-                                        activeClassName=""
-                                    >
-                                        About
+                                            <Nav.Item>
+                                                <NavLink
+                                                    to="/"
+                                                    className="nav-link"
+                                                    activeClassName=""
+                                                >
+                                                    About
                                     </NavLink>
-                                </Nav.Item>
+                                            </Nav.Item>
 
-                                <Nav.Item>
-                                    <NavLink
-                                        to="/"
-                                        className="nav-link"
-                                        activeClassName=""
-                                    >
-                                        Team
+                                            <Nav.Item>
+                                                <NavLink
+                                                    to="/"
+                                                    className="nav-link"
+                                                    activeClassName=""
+                                                >
+                                                    Team
                                     </NavLink>
-                                </Nav.Item>
+                                            </Nav.Item>
 
-                                <Nav.Item>
-                                    <NavLink
-                                        to="/"
-                                        className="nav-link"
-                                        activeClassName=""
-                                    >
-                                        Blog
+                                            <Nav.Item>
+                                                <NavLink
+                                                    to="/"
+                                                    className="nav-link"
+                                                    activeClassName=""
+                                                >
+                                                    Blog
                                     </NavLink>
-                                </Nav.Item>
+                                            </Nav.Item>
 
-                                <Nav.Item>
-                                    <NavLink
-                                        to="/"
-                                        className="nav-link"
-                                        activeClassName=""
-                                    >
-                                        Pricing
+                                            <Nav.Item>
+                                                <NavLink
+                                                    to="/"
+                                                    className="nav-link"
+                                                    activeClassName=""
+                                                >
+                                                    Pricing
                                     </NavLink>
-                                </Nav.Item>
+                                            </Nav.Item>
 
-                                <Nav.Item>
-                                    <NavLink
-                                        to="/"
-                                        className="nav-link"
-                                        activeClassName=""
-                                    >
-                                        Contact
+                                            <Nav.Item>
+                                                <NavLink
+                                                    to="/"
+                                                    className="nav-link"
+                                                    activeClassName=""
+                                                >
+                                                    Contact
                                     </NavLink>
-                                </Nav.Item>
-                            </React.Fragment>
-                        )}
-                        </Nav>
-                    </Navbar.Collapse>
-                    
-                    <div className="header-search">
-                        <SearchModal />
-                    </div>
-                </Container>
-            </Navbar>
-        </React.Fragment>
-    );
-  }
+                                            </Nav.Item>
+                                        </React.Fragment>
+                                    )}
+                            </Nav>
+                        </Navbar.Collapse>
+
+                        <div className="header-search">
+                            <SearchModal />
+                        </div>
+                    </Container>
+                </Navbar>
+            </React.Fragment>
+        );
+    }
 }
 //Props Types
 NavBar.propTypes = {

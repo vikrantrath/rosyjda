@@ -28,7 +28,7 @@ class App extends Component {
       <div className="App">
         <Page loader={"comet-spin"} color={"#fe5619"} size={50}>
           <div>
-            <HomeOne />
+            <HomeThree />
             <ScrollUpBtn />
           </div>
         </Page>
