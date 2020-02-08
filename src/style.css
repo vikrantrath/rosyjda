@@ -368,7 +368,7 @@ button {
     color: #fff !important;
 }
 .navbar-light .navbar-brand {
-    position: absolute;
+    /* position: absolute; */
     top: -50px;
     z-index: 99999;
     padding: 0;

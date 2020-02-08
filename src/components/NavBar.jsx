@@ -337,7 +337,7 @@ NavBar.propTypes = {
 //Default Props
 NavBar.defaultProps = {
     MainLogo: require('../assets/img/logo.png'),
-    Logo2: require('../assets/img/logo2.png'),
+    Logo2: require('../assets/img/logo.png'),
     mailLink: "mailto:name@email.com",
     mail: "support@roxy.com ",
     numberLink: "callto:+4917640206387",
