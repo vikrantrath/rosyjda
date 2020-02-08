@@ -58,7 +58,7 @@ BannerThree.propTypes = {
 BannerThree.defaultProps = {
     TopTitle: "Clean & Creative",
     Title: "Welcome To Jain Dhingra & Associates",
-    Content: "We at Jain Dhingra &amp; Associates, strive to add value to your work with our best financial guidance and services at various genres.",
+    Content: "We at Jain Dhingra & Associates, strive to add value to your work with our best financial guidance and services at various genres.",
     BtnLink: "/#",
     BtnName: "get started",
 };
