@@ -10,7 +10,7 @@ class About extends Component {
             <div className="col-lg-4 col-md-6" key={index}>
                 <div className="about-info">
                     <Icofont icon={about.Icon} />
-                    <h3>{about.title}</h3>
+                    {/* <h3>{about.title}</h3> */}
                     <p>{about.content}</p>
                 </div>
             </div>
@@ -54,12 +54,12 @@ About.defaultProps = {
     SectionbgTitle: "About",
     sectionTitle: "About Us",
     sectionDescription:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum. Praesent porta, purus eget sagittis imperdiet.",
+        "Jain Dhingra & Associates is a group of experienced professionals in the field of Finance & Accounts, Taxation, Audit, Outsourcing and Compliances etc. since 1973.",
         aboutsData: [
         {
             Icon: "icofont-binoculars",
             title: "Backgrounds",
-            content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            content: "The certified and trusted advisors of Jain Dhingra & Associates strive to serve and support client with their exquisite services and guidance for entrepreneurs dealing in manufacturing specially FMCG sector, Trading, Exports, Charitable Institutions etc. and looking for the best financial advice for the optimum solutions of Business setup, Audit & Assurance, Taxation, Statutory Compliances, Outsourcing Services, CFO Services and others.",
         },
         {
             Icon: "icofont-direction-sign",
