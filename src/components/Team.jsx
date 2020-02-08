@@ -86,20 +86,20 @@ class Team extends Component {
               </OwlCarousel>
               <div className="row mt-4 text-center align-center">
                 <div className="col-md-8 col-sm-12 offset-md-2 mt-4">
-                  <i className="icofont-quote-left"></i>
+                  <i className=""></i>
                   <p >
                     Partner having 25 years of qualitative experience in various
-                    Finance &amp; Accounts functions, Annual finalization of
-                    Accounts , Internal Controls, Budgeting &amp; Budgetary
+                    Finance Accounts functions, Annual finalization of
+                    Accounts , Internal Controls, Budgeting Budgetary
                     Controls, Inventory Controls, Product Costing, Credit
                     Control, Contract Manufacturing Operation ,Internal
                     Financial Controls (IFC) ,ERP Implementation (SME),
-                    Financial Statements preparation &amp; analysis, Statutory
-                    &amp; Tax Audits , Business Analysis, arrangement of Loans
-                    from Financial Institutions &amp; arranging credit ratings
+                    Financial Statements preparation analysis, Statutory
+                    Tax Audits , Business Analysis, arrangement of Loans
+                    from Financial Institutions arranging credit ratings
                     for Organisations.
                   </p>
-                  <i className="icofont-quote-right"></i>
+                  <i className=""></i>
                 </div>
               </div>
             </div>
