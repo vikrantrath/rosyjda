@@ -7,13 +7,10 @@ class About extends Component {
   render() {
     //About loop start
     const aboutdata = this.props.aboutsData.map((about, index) => (
-      <div className="col-lg-4 col-md-6" key={index}>
-        <div className="about-info">
-          <Icofont icon={about.Icon} />
-          {/* <h3>{about.title}</h3> */}
-          <p>{about.content}</p>
-        </div>
-      </div>
+      <p>{about.content}</p>
+    ));
+    const founderdata = this.props.foundersData.map((about, index) => (
+      <p>{about.content}</p>
     ));
     //About loop END
     return (
@@ -33,7 +30,21 @@ class About extends Component {
                 </ScrollAnimation>
               </div>
             </div>
-            <div className="row">{aboutdata}</div>
+            <div className="row mb-2">{aboutdata}</div>
+            <div className="row mt-5">
+              <div className="col-lg-8 offset-lg-2 text-center">
+                <ScrollAnimation animateIn="fadeInUp">
+                  <div className="section-title">
+                    <h2>{this.props.sectionTitle2}</h2>
+                    <p>{this.props.sectionDescription2}</p>
+                    <span className="section-title-bg">
+                      {this.props.SectionbgTitle2}
+                    </span>
+                  </div>
+                </ScrollAnimation>
+              </div>
+            </div>
+            <div className="row">{founderdata}</div>
           </div>
         </section>
       </React.Fragment>
@@ -72,13 +83,13 @@ About.defaultProps = {
       title: "Methodology",
       content:
         "With our best team members who are professionally experienced and well-versed with the world of digitalization; always stand to serve nothing like second with their best works of SAP, M.S. Office, Tally and other latest software programs."
-    },
-    {
-      Icon: "icofont-users-social",
-      title: "Our Rich Experience",
-      content:
-        "It was in 1973 when two wise brains of the accounting field CA Ravindra Nath Dhingra and CA Bhoopat S. Jain thought of establishing an entity to provide professional guidance together with all their skills and experiences under one roof."
-    },
+    }
+  ],
+  SectionbgTitle2: "Founders",
+  sectionTitle2: "Our Founders",
+  sectionDescription2:
+    "It was in 1973 when two wise brains of the accounting field CA Ravindra Nath Dhingra and CA Bhoopat S. Jain thought of establishing an entity to provide professional guidance together with all their skills and experiences under one roof.",
+  foundersData: [
     {
       Icon: "icofont-street-view",
       title: "Our Rich Experience",
