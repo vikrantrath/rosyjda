@@ -52,11 +52,11 @@ Feature.propTypes = {
 
 //Default Props
 Feature.defaultProps = {
-    SectionbgTitle: "WHY",
-    sectionTitle: "Why JDA",
-    sectionDescription:
-      "We at Jain Dhingra & Associates, strive to add value to your work with our best financial guidance and services at various genres. With our easily accessible professional guidance and support, you can groom your business complying all regulatory compliances.",
-  
+  SectionbgTitle: "WHY",
+  sectionTitle: "Why Jain Dhingra & Associates",
+  sectionDescription:
+    "We at Jain Dhingra & Associates, strive to add value to your work with our best financial guidance and services at various genres. With our easily accessible professional guidance and support, you can groom your business complying all regulatory compliances.",
+
   featuresData: [
     {
       icon: "icofont-responsive",
