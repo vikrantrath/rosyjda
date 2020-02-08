@@ -84,6 +84,24 @@ class Team extends Component {
               >
                 {teamdata}
               </OwlCarousel>
+              <div className="row mt-4 text-center align-center">
+                <div className="col-md-8 col-sm-12 offset-md-2 mt-4">
+                  <i className="icofont-quote-left"></i>
+                  <p >
+                    Partner having 25 years of qualitative experience in various
+                    Finance &amp; Accounts functions, Annual finalization of
+                    Accounts , Internal Controls, Budgeting &amp; Budgetary
+                    Controls, Inventory Controls, Product Costing, Credit
+                    Control, Contract Manufacturing Operation ,Internal
+                    Financial Controls (IFC) ,ERP Implementation (SME),
+                    Financial Statements preparation &amp; analysis, Statutory
+                    &amp; Tax Audits , Business Analysis, arrangement of Loans
+                    from Financial Institutions &amp; arranging credit ratings
+                    for Organisations.
+                  </p>
+                  <i className="icofont-quote-right"></i>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -104,7 +122,7 @@ Team.defaultProps = {
   SectionbgTitle: "Team",
   sectionTitle: "Our Team",
   sectionDescription:
-    "With our team of experts in accountancy, Company Law and the corporate taxation system Jain Dhingra & Associates stands high on its core values and services with its certified and experienced Chartered Accountants, Business Analysts, Tax and Finance Experts, IT Professionals, and the Support Staff who strive to resolve your queries and guide you at their best. Meet the top-notch professionals of Jain Dhingra & Associates.",
+    "With our team of experts in accountancy, Company Law and the corporate taxation system; Jain Dhingra & Associates stands high on its core values and services with its certified and experienced Chartered Accountants, Business Analysts, Tax and Finance Experts, IT Professionals, and the Support Staff who strive to resolve your queries and guide you at their best. Meet the top-notch professionals of Jain Dhingra & Associates.",
   teamsData: [
     {
       Image: require("../assets/img/person-anonymous-thumb.jpg"),
