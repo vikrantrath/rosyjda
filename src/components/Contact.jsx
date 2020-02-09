@@ -230,6 +230,6 @@ Contact.defaultProps = {
     EmailTitle: "Email",
     Email: "jaindhingra@gmail.com",
     PhoneTitle: "Phone",
-    Phone: "9736136414,9839470209, 9415052167",
+    Phone: "9736136414, 9839470209, 9415052167",
 };
 export default Contact;

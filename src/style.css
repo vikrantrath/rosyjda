@@ -666,6 +666,10 @@ button {
 	transition: .5s;
 	-webkit-transition: .5s;
 }  
+.single-feature:hover {
+    /* background-color: #fff; */
+    box-shadow: 0 9px 15px 0 #bfcfdc;
+}
 /* =========================
 Services Area CSS 
 ========================= */
@@ -679,9 +683,11 @@ Services Area CSS
     margin-top: 30px;
     transition: .5s;
     -webkit-transition: .5s;
+    height: 93%;
 }
 .service-item:hover {
-	background-color: #fff;
+    /* background-color: #fff; */
+    box-shadow: 0 9px 15px 0 #bfcfdc;
 }
 .service-item p {
     margin: 0;

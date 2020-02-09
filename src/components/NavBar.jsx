@@ -285,8 +285,8 @@ NavBar.defaultProps = {
   Logo2: require("../assets/img/logo.png"),
   mailLink: "mailto:name@email.com",
   mail: "jaindhingra@gmail.com ",
-  numberLink: "callto:9736136414,9839470209, 9415052167",
-  Number: "9736136414,9839470209, 9415052167",
+  numberLink: "callto:9736136414, 9839470209, 9415052167",
+  Number: "9736136414, 9839470209, 9415052167",
   facebookLink: "//facebook.com/envato",
   twitterLink: "//twitter.com/envato",
   instagramLink: "//instagram.com/envato/"
