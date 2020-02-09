@@ -1,138 +1,138 @@
 /*
- Default: #fe5619;
+ Default: #007bff;
  */
 
  h2, a:focus {
-	color: #fe5619;
+	color: #007bff;
 }
 .button, .center-wrap button button {
-border: 1px solid #fe5619;
-	background-color: #fe5619;
+border: 1px solid #007bff;
+	background-color: #007bff;
 }
 .plan .button:hover {
-border-color: #fe5619;
+border-color: #007bff;
 }
 .plan .button a, .glyph i {
-color: #fe5619;
+color: #007bff;
 }
 
 .plan.featured .button {
-background-color: #fe5619;
+background-color: #007bff;
 }
 .social-icons ul li a:hover {
-background-color: #fe5619;
+background-color: #007bff;
 } 
 .navbar-light .navbar-nav > .nav-item:hover,
 .navbar-light .navbar-nav > .nav-item:active {
-background-color: #e74c14;
+background-color: #007bff;
 }
 
 .owl-thumb-item i {
-	color: #fe5619;
+	color: #007bff;
 }
 .navbar-light .navbar-nav .nav-link.active{
-background-color: #e74c14 !important;
+background-color: #007bff !important;
 }
 
 .navbar-light.fixed-top, .search-modal, .home-video-area::before, .owl-thumb-item.active, .owl-thumb-item:hover {
-	background-color: #fe5619;
+	background-color: #007bff;
 }
 .navbar-light.fixed-top {
 	background-color: #222222 !important;
 }
 .filter-menu button.programs-filter-btn-active, .filter-menu button:hover {
-background-color: #fe5619;
+background-color: #007bff;
 }
 .work-details .icon li span, .team-box .title, .team-box .icon li a, .team-slides .owl-nav div {
-color: #fe5619 !important;
+color: #007bff !important;
 }
 .team-box .icon li a:hover {
-background: #fe5619;
+background: #007bff;
 }
 .date-box {
-background-color: #fe5619;
+background-color: #007bff;
 }
 .blog-item:hover .title-meta h2 a {
-	color: #fe5619;
+	color: #007bff;
 }
 .post-meta ul li a:hover {
-color: #fe5619;
+color: #007bff;
 }
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
-background-color: #fe5619;
-border-color: #fe5619;
+background-color: #007bff;
+border-color: #007bff;
 }
 .side-widget h3::before { 
-background: #fe5619;
+background: #007bff;
 }
 .search-form .btn-default {
-border-color: #fe5619;
-background: #fe5619;
+border-color: #007bff;
+background: #007bff;
 }
 .side-widget .list-group li a:hover {
-color: #fe5619;
+color: #007bff;
 }
 .single-post h4 a:hover {
-color: #fe5619;
+color: #007bff;
 }
 .list-tags li a:hover {
-	background-color: #fe5619;
+	background-color: #007bff;
 }
 .sharing-link ul li i:hover {
-	background-color: #fe5619;
+	background-color: #007bff;
 }
 .content-box:hover .box-icon-effect-1a .box-icon i {
-	color: #fe5619;
+	color: #007bff;
 }
 .work-details .box-content{
-background: #fe5619;
+background: #007bff;
 }
 .comments-title::before {
-background: #fe5619;
+background: #007bff;
 }
 .single-comment .reply:hover {
-background-color: #fe5619;
+background-color: #007bff;
 }
 .video-area:before {
-background: #fe5619;
+background: #007bff;
 }
 .plus, .post-meta ul li .fa {
-color: #fe5619;
+color: #007bff;
 } 
 .plus:hover {
-color: #fe5619;
+color: #007bff;
 }
 .tab-menu ul li.active a {
-background-color: #fe5619;
+background-color: #007bff;
 }
 .plan.featured .listing-badges .featured {
-color: #fe5619;
+color: #007bff;
 }
 .plan.featured .plan-price, .content-box.color-effect-1, .footer  {
-background-color: #fe5619;
+background-color: #007bff;
 }
 .single-testimonial-item i, .partners-slides .owl-nav div {
-	color: #fe5619 !important;
+	color: #007bff !important;
 }
 .client-info h3, .testimonial-slides .owl-nav div {
-color: #fe5619 !important;
+color: #007bff !important;
 }
 .panel-title a:before, .panel-title a.collapsed:before {
-color: #fe5619;
-border: 1px solid #fe5619;
+color: #007bff;
+border: 1px solid #007bff;
 }
 .social-icons.bottom ul li a {
-background-color: #9e3610;
+background-color: #145faf;
 }
 .social-icons.bottom ul li a:hover {
-	color: #9e3610;
+	color: #145faf;
 }
 .about-info i {
-	color:#fe5619;
+	color:#007bff;
 }
 .about-info:hover {
-	background-color: #fe5619;
+	background-color: #007bff;
 }
 .plan .btn-a {
-	color: #fe5619;
+	color: #007bff;
 }

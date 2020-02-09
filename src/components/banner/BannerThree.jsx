@@ -56,7 +56,7 @@ BannerThree.propTypes = {
 
 //Default Props
 BannerThree.defaultProps = {
-    TopTitle: "Taxing Made Simple",
+    TopTitle: "Business made simple",
     Title: "Welcome To Jain Dhingra & Associates",
     Content: "We at Jain Dhingra & Associates, strive to add value to your work with our best financial guidance and services at various genres.",
     BtnLink: "/#",

@@ -222,7 +222,7 @@ button {
     Preloader CSS
    ========================= */
 .site-preloader-wrap {
-    background: #fe5619;
+    background: #007bff;
     height: 100%;
     position: fixed;
     width: 100%;
@@ -1957,7 +1957,7 @@ a.button.border {
 	margin: 0 0 10px;
 }
 .address-area i {
-    color: #fe5619;
+    color: #007bff;
     font-size: 35px;
     position: absolute;
     left: 0;

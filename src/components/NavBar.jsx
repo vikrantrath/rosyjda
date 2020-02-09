@@ -149,21 +149,6 @@ class NavBar extends Component {
                     <Nav.Item>
                       <Link
                         activeclass="active"
-                        to="services"
-                        spy={true}
-                        smooth={true}
-                        offset={-200}
-                        duration={800}
-                        className="nav-link"
-                        onClick={this.closeNavbar}
-                      >
-                        Services
-                      </Link>
-                    </Nav.Item>
-
-                    <Nav.Item>
-                      <Link
-                        activeclass="active"
                         to="about"
                         spy={true}
                         smooth={true}
@@ -173,6 +158,21 @@ class NavBar extends Component {
                         onClick={this.closeNavbar}
                       >
                         About
+                      </Link>
+                    </Nav.Item>
+
+                    <Nav.Item>
+                      <Link
+                        activeclass="active"
+                        to="founder"
+                        spy={true}
+                        smooth={true}
+                        offset={-200}
+                        duration={800}
+                        className="nav-link"
+                        onClick={this.closeNavbar}
+                      >
+                        Founder
                       </Link>
                     </Nav.Item>
 
@@ -191,6 +191,37 @@ class NavBar extends Component {
                       </Link>
                     </Nav.Item>
 
+                    <Nav.Item>
+                      <Link
+                        activeclass="active"
+                        to="why"
+                        spy={true}
+                        smooth={true}
+                        offset={-200}
+                        duration={800}
+                        className="nav-link"
+                        onClick={this.closeNavbar}
+                      >
+                        Why
+                      </Link>
+                    </Nav.Item>
+
+                    <Nav.Item>
+                      <Link
+                        activeclass="active"
+                        to="services"
+                        spy={true}
+                        smooth={true}
+                        offset={-200}
+                        duration={800}
+                        className="nav-link"
+                        onClick={this.closeNavbar}
+                      >
+                        Services
+                      </Link>
+                    </Nav.Item>
+
+                   
                     <Nav.Item>
                       <Link
                         activeclass="active"

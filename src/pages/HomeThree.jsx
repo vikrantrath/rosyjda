@@ -8,6 +8,7 @@ import Services from "../components/Services";
 import WelcomeServices from "../components/WelcomeServices";
 import Works from "../components/Works";
 import About from "../components/About";
+import Founder from "../components/Founder";
 import Team from "../components/Team";
 import Blog from "../components/Blog";
 import VideoArea from "../components/VideoArea";
@@ -27,16 +28,20 @@ class HomeThree extends Component {
         <NavBar pageName="home" />
         {/* BannerThree: src/components/banner/BannerThree.jsx */}
         <BannerThree />
+         {/* About: src/components/About.jsx */}
+         <About />
+        {/* Founder: src/components/Founder.jsx */}
+        <Founder />
+         {/* Team: src/components/Team.jsx */}
+         <Team />
         {/* Feature: src/components/Feature.jsx */}
         <Feature />
-        {/* Services: src/components/Services.jsx */}
-        <Services />
-        {/* About: src/components/About.jsx */}
-        <About />
+         
         {/* Testimonials: src/components/Testimonials.jsx */}
         <Testimonials />
-        {/* Team: src/components/Team.jsx */}
-        <Team />
+        {/* Services: src/components/Services.jsx */}
+        <Services />
+      
         {/* Contact: src/components/Contact.jsx */}
         <Contact />
         {/* Footer: src/components/Footer.jsx */}

@@ -24,14 +24,14 @@ background-color: #222222;
 } 
 .navbar-light .navbar-nav > .nav-item:hover,
 .navbar-light .navbar-nav > .nav-item:active {
-background-color: #e74c14;
+background-color: #007bff;
 }
 
 .owl-thumb-item i {
 	color: #222222;
 }
 .navbar-light .navbar-nav .nav-link.active{
-background-color: #e74c14 !important;
+background-color: #007bff !important;
 }
 
 .navbar-light.fixed-top, .search-modal, .home-video-area::before, .owl-thumb-item.active, .owl-thumb-item:hover {
@@ -44,7 +44,7 @@ background-color: #e74c14 !important;
 background-color: #222222;
 }
 .work-details .icon li a, .team-box .title, .team-box .icon li a, .team-slides .owl-nav div {
-color: #fe5619 !important;
+color: #007bff !important;
 }
 .team-box .icon li a:hover {
 background: #222222;
@@ -112,20 +112,20 @@ color: #222222;
 background-color: #222222;
 }
 .single-testimonial-item i, .partners-slides .owl-nav div {
-	color: #fe5619 !important;
+	color: #007bff !important;
 }
 .client-info h3, .testimonial-slides .owl-nav div {
-color: #fe5619 !important;
+color: #007bff !important;
 }
 .panel-title a:before, .panel-title a.collapsed:before {
 color: #222222;
 border: 1px solid #222222;
 }
 .social-icons.bottom ul li a {
-background-color: #9e3610;
+background-color: #145faf;
 }
 .social-icons.bottom ul li a:hover {
-	color: #9e3610;
+	color: #145faf;
 }
 .about-info i {
 	color:#222222;

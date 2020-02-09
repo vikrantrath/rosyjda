@@ -20,7 +20,7 @@ class Feature extends Component {
     //Feature loop END
     return (
       <React.Fragment>
-        <section className="feature-area">
+        <section id="why" className="feature-area">
           <div className="container">
             <div className="row">
               <div className="row">

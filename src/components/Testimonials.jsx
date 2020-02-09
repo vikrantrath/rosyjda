@@ -55,7 +55,7 @@ Testimonials.defaultProps = {
   testimonialsData: [
     {
       clientImage: require("../assets/img/client-one.png"),
-      Content:"To help our clients to meet their goals through our professionals, services and solutions.",
+      Content:"To provide professional and financial services to our clients to support them to achieve their desired level of success.",
       Name: "Our Mission",
       Profession: "Founder & Director"
     },
