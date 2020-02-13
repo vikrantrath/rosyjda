@@ -100,7 +100,7 @@ class NavBar extends Component {
             <Navbar.Brand className="navbar-brand logo">
               <React.Fragment>
                 <LinkContainer exact to="/">
-                  <img src={this.props.MainLogo} alt="Logo" />
+                  <img className="logo_size" src={this.props.MainLogo} alt="Logo1" />
                 </LinkContainer>
               </React.Fragment>
             </Navbar.Brand>
@@ -108,10 +108,11 @@ class NavBar extends Component {
             <Navbar.Brand className="navbar-brand logo-2">
               <React.Fragment>
                 <LinkContainer exact to="/">
-                  <img
+                  <img className="logo_size"
+                  
                     className="img-fluid"
                     src={this.props.Logo2}
-                    alt="Logo"
+                    alt="Logo2"
                   />
                 </LinkContainer>
               </React.Fragment>
@@ -259,7 +260,7 @@ class NavBar extends Component {
 
                     <Nav.Item>
                       <NavLink to="/" className="nav-link" activeClassName="">
-                        About
+                        About Us
                       </NavLink>
                     </Nav.Item>
 

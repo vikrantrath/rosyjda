@@ -2493,3 +2493,7 @@ h3,h2{
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
   }
+
+  .logo_size {
+      height: 5em;
+  }
